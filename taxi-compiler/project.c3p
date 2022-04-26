@@ -2,12 +2,12 @@
   "langrev": "1",
   "warnings": [ "no-unused" ],
   "authors": [ "Lilypad" ],
-  "sources": [ "src/taxi/**" ],
+  "sources": [ "src/compiler/**" ],
   "version": "0.1.0",
   "targets": {
     "taxi": {
       "type": "executable",
-      "sources": [ "src/taxi/**" ],
+      "sources": [ "src/compiler/**" ],
     },
     "cab": {
       "type": "executable",
