@@ -30,4 +30,4 @@ on run { # kinda like the main function!
 
 ## Licensing
 
-[https://choosealicense.com/licenses/bsl-1.0/](BSL-1.0)
+(https://choosealicense.com/licenses/bsl-1.0/)[BSL-1.0]
