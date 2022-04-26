@@ -4,7 +4,7 @@
 *.o
 *.ali
 configure
-taxi
+taxi-dev
 cab
 GNUmakefile
 config.log
