@@ -1,5 +1,15 @@
 *.exe
 *.o
 *.obj
+*.o
+*.ali
+configure
 taxi
 cab
+GNUmakefile
+config.log
+config.status
+config.ads
+install-sh
+autom4te*
+*~

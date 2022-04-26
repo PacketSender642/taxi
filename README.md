@@ -4,13 +4,13 @@
 
 # Taxi
 
-a event driven compiled language written in C3
+a event driven compiled language written in V
 
 ## Building
 
-You need C3, get it here -> https://github.com/c3lang/c3c
+You need a V compiler (vlang.io)
 ```bash
-$ cd taxi-compiler; c3c build
+make -j2
 ```
 
 ## Samples 
@@ -30,9 +30,4 @@ We wont add windows support.
 
 ## Licensing
 
-<img align="right" alt="License logo" src="https://www.gnu.org/graphics/gplv3-127x51.png"/>
-
-This project and its components are licensed under the GPL-3.0 license.
-The license in full is provided in `LICENSE`, and a little header is
-displayed on the pertinent source.
-
+[https://choosealicense.com/licenses/bsl-1.0/](BSL-1.0)
