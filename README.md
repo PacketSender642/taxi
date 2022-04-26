@@ -23,10 +23,10 @@ on run { # kinda like the main function!
 
 ## Platforms supported currently
 
-- [ ] Linux
+- [x] Linux
+- [ ] MacOS
+- [ ] Windows
 - [ ] NetBSD
-
-We wont add windows support.
 
 ## Licensing
 
