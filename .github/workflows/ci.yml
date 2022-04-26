@@ -1,0 +1,48 @@
+name: Test Build
+on: [push]
+jobs:
+  ubuntu-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get V
+        uses: vlang/setup-v@v1
+      - name: checkout repo
+        uses: actions/checkout@v2
+      - name: Try building
+        run: v .
+      - name: Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: taxi-lin
+          path: ./taxi-dev
+  macos-build:
+    runs-on: macOS-latest
+    steps:
+      - name: get V
+        uses: vlang/setup-v@v1
+      - name: checkout repo
+        uses: actions/checkout@v2
+      - name: Try building
+        run: v .
+      - name: Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: taxi-mac
+          path: ./taxi-dev   
+  windows-build:
+    runs-on: windows-2019
+    env:
+      CC: gcc
+      BUILD_ON_WINDOWS: 1
+    steps:
+      - name: get V
+        uses: vlang/setup-v@v1
+      - name: checkout repo
+        uses: actions/checkout@v2
+      - name: Try building
+        run: v .
+      - name: Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: taxi-win.exe
+          path: .\taxi-dev.exe
