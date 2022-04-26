@@ -1,0 +1,20 @@
+{
+  "langrev": "1",
+  "warnings": [ "no-unused" ],
+  "authors": [ "Lilypad" ],
+  "sources": [ "src/taxi/**" ],
+  "version": "0.1.0",
+  "targets": {
+    "taxi": {
+      "type": "executable",
+      "sources": [ "src/taxi/**" ],
+    },
+    "cab": {
+      "type": "executable",
+      "sources": [ "src/cab/**" ],
+    },
+  },
+  "debug-info": "full",
+  "cpu": "generic",
+  "cc": "cc"
+}
