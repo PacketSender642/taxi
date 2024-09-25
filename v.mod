@@ -1,7 +1,7 @@
 Module {
 	name: 'taxi'
 	description: ''
-	version: ''
-	license: 'BSL-1.0'
+	version: '0.2'
+	license: 'GPL-3.0'
 	dependencies: []
 }

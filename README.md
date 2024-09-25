@@ -1,33 +1,46 @@
-<p align="center">
-  <img width="69" height="69" src="https://github.com/PacketSender642/taxi-lang/blob/main/resources/oncoming-taxi_1f696.png?raw=true">
+<p align="right">
+  <img width="32" height="32" src="./assets/taxi.png">
 </p>
 
 # Taxi
 
-a event driven compiled language written in V
+simple compiled language written in V
 
 ## Building
 
-You need a V compiler (vlang.io)
+You must have a V compiler. (<vlang.io>)
+
+
 ```bash
-make -j2
+v .         # for a simple build
+v . -prod   # for a production build
 ```
 
 ## Samples 
 
 ```taxi
-on run { # kinda like the main function!
-    puts("Hello taxi!");
+
+import passanger.io
+
+fun main() {
+  io.println("Hello, Taxi.")
 }
+
 ```
 
-## Platforms supported currently
+_more soon_
+
+## Platforms tested currently
 
 - [x] Linux
 - [ ] MacOS
-- [ ] Windows
+- [X] Windows
 - [ ] NetBSD
 
-## Licensing
+## Licensing for the compiler
 
-(https://choosealicense.com/licenses/bsl-1.0/)[BSL-1.0]
+<img align="right" alt="License logo" src="https://www.gnu.org/graphics/gplv3-127x51.png"/>
+
+This project and its components are licensed under the GPL-3.0 license.
+The license in full is provided in `COPYING`, and a little header is
+displayed on the pertinent source.
