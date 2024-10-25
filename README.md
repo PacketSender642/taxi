@@ -4,11 +4,20 @@
 
 # Taxi
 
-simple compiled language written in V
+simple compiled language, and a compiler backend.
+
+> [!CAUTION]
+> Taxi is not finished, and wont be for a while. So expect breaking changes and big bugs, and missing features!
+
+## Features
+
+* Simple language and backend
+* Fast enough
+* Very capable
 
 ## Building
 
-You must have a V compiler. (<vlang.io>)
+You must have a V compiler. see [vlang.io](https://vlang.io/)
 
 
 ```bash
@@ -18,29 +27,14 @@ v . -prod   # for a production build
 
 ## Samples 
 
+#### Hello Taxi
+
 ```taxi
 
-import passanger.io
+  import passanger.io
 
-fun main() {
-  io.println("Hello, Taxi.")
-}
+  fun main() {
+    io.println("Hello, Taxi.")
+  }
 
 ```
-
-_more soon_
-
-## Platforms tested currently
-
-- [x] Linux
-- [ ] MacOS
-- [X] Windows
-- [ ] NetBSD
-
-## Licensing for the compiler
-
-<img align="right" alt="License logo" src="https://www.gnu.org/graphics/gplv3-127x51.png"/>
-
-This project and its components are licensed under the GPL-3.0 license.
-The license in full is provided in `COPYING`, and a little header is
-displayed on the pertinent source.

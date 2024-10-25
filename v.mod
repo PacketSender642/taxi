@@ -1,7 +1,7 @@
 Module {
 	name: 'taxi'
-	description: ''
-	version: '0.2'
-	license: 'GPL-3.0'
+	description: 'simple compiled language, and a compiler backend.'
+	version: '0.24.1'
+	license: 'MIT'
 	dependencies: []
 }
